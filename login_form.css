@@ -1,0 +1,94 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    padding:60px 0px;
+    background:url('childformn.jpg');
+    background-size: cover;
+}
+.box{
+    width: 300px;
+    height: 400px;
+    background: #f7f0f0b3;
+    border-radius: 10px;
+    box-shadow: 1px 2px 9px 7px rgba(0,0,0,0.233)
+}
+.box p{
+    color: #000;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.342);
+}
+
+label{
+    margin-left: 40px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+}
+.box input[type=text]{
+    width: 200px;
+    height: 30px;
+    color:#0a3000;
+    border: none;
+    border-bottom: solid 1px rgba(255, 252, 252, 0.867);
+    background:#FFF;
+    margin-left: 40px;
+    padding-top: -10px;
+}
+.box input[type=text]::placeholder{
+    padding-left: 10px;
+}
+.box input[type=password]{
+    width: 200px;
+    height: 30px;
+    color:#0a3000;
+    border: none;
+    border-bottom: solid 1px rgba(255, 252, 252, 0.867);
+    background:#FFF;
+    margin-left: 40px;
+}
+.box input[type=password]::placeholder{
+    padding-left: 10px;
+}
+.box input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+    color:#fff;
+    border: none;
+    border-bottom: solid 1px rgba(255, 252, 252, 0.867);
+    background:#FFF;
+    margin-left: 40px;
+    margin-top: 17px;
+    position: relative;
+}
+.box label:last-child{
+    margin-left: 5px;
+    margin-top: 15px;
+    position: absolute;
+    font-size: 15px;
+}
+.box p:last-child{
+    font-size: 15px;
+    font-weight:bold;
+    color:#f6f6f9;
+    background: rgb(24, 122, 39);
+    border-radius: 5Px;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+.box p:last-child:hover{
+    background: rgba(100, 255, 121, 0.759);
+    transform: scale(1.01,1.01);
+    font-size: 15.5px;
+    color: rgb(3, 47, 10);
+}
